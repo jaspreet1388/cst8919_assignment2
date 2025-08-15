@@ -28,6 +28,28 @@
 
 ---
 
+## Consolidated Pricing Overview
+
+| Azure Service | Azure Pricing Model | AWS Pricing Model | GCP Pricing Model |
+|---|---|---|---|
+| Azure Active Directory (Entra ID) | Free, P1, P2 per user/month | IAM free; Identity Center per user/month | IAM free; Cloud Identity free/paid tiers |
+| Managed Identities | No charge | No charge | No charge |
+| Azure Monitor | $/GB ingest + retention | CloudWatch per metric, $/GB logs | Cloud Monitoring free tier + overage |
+| Log Analytics | $/GB ingest + retention | CloudWatch Logs $/GB ingest/retention | Cloud Logging $0.50/GiB (50 GiB free) |
+| Azure Policy | Included | AWS Config per config item/month | Org Policy free |
+| Microsoft Defender for Cloud | Free tier + per resource plan pricing | GuardDuty $/GB analyzed; Security Hub per check/finding | SCC Standard free; Premium/Enterprise subscription |
+| Microsoft Sentinel | $/GB ingested; commitment tiers | Security Lake storage/scan + partner SIEM licensing | Chronicle SIEM subscription |
+| Azure Key Vault | Per transaction + key storage | KMS per key + Secrets Manager per secret/month | Cloud KMS per key + Secret Manager per secret/month |
+| Activity Logs | Free (retention billed) | CloudTrail 1 copy free; additional trails per GB | Cloud Audit Logs free for admin; data logs billed per GB |
+| Network Security Groups (NSGs) | Included | Included | Included |
+| Private Endpoints | $/endpoint/hour + data | $/endpoint/hour + data | $/endpoint/hour + data |
+| Microsoft Purview | vCore-hour + data operations | Glue free tier + per DPU-hour; Lake Formation free + API costs | Dataplex + Data Catalog per operation/storage |
+| Azure Firewall | Hourly + data processed | Hourly + data processed | Rules free; Cloud Armor per policy/month + data |
+| Azure Blueprints | Included | Service Catalog free | Deployment Manager free |
+| Defender for DevOps | Included in Defender for Cloud plan | CodeGuru Security + Inspector usage pricing | SCC + Cloud Build scans usage pricing |
+
+---
+
 ## 1. Azure Active Directory (Microsoft Entra ID)
 
 **Overview**  
