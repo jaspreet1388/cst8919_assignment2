@@ -6,7 +6,7 @@
 
 ---
 
-## 🔎 Quick Reference – Azure → AWS → GCP
+## Quick Reference – Azure → AWS → GCP
 
 | Azure Service | AWS Equivalent | GCP Equivalent |
 |---|---|---|
